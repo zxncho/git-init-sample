@@ -1,69 +1,139 @@
+
 * {
     margin: 0;
     padding: 0;
-} 
-
-{
-body
-{
-
-background-color: blanchedalmond;
-position: absolute;
-font-family: Georgia, 'Times New Roman', Times, serif;
-color: navy;
-
 }
 
-header, 
-{
-
-position: fixed;
-font: bold;
+body {
+background-color: blanchedalmond;
+position: relative;
 font-family: Georgia, 'Times New Roman', Times, serif;
-
+font-size: 20px;
+color:royalblue;
 }
 
 h1, 
 h2
 {
-
- font: bold;
- font-family: Georgia, 'Times New Roman', Times, serif;
-color: gold; 
 margin: 20px;
-
+text-align: center;
 }
 
 h4
  {
 font: bold;
 font-family:Georgia, 'Times New Roman', Times, serif;
-color: white;
+color: royalblue;
 }
+
+main
+{
+    padding: 60px;
+}
+
 li
 {
-
     display: inline;
     padding: 10px 30px;
     text-decoration: underline;
 }
+a
+{
+    text-decoration: solid;
+    color: royalblue;
+}
+
+header,
+footer
+{
+height: auto;
+width: auto;
+line-height: 60px;
+background-color: blanchedalmond;
+}
+
+header, 
+{
+position: fixed;
+border-bottom: 10px solid gold; 
+}
+
 
 footer
 {
-
-position: fixed;
+position: absolute;
 font: bold;
 font-family: Georgia, 'Times New Roman', Times, serif;
+margin-top: 0;
+bottom: 0;
+border-bottom: 0px solid royalblue;
+}
 
+figure
+{
+    margin-bottom: 40px;
 }
 
 img 
 {
 display: block;
-margin: 20px auto;
-
+margin: 40px auto;
 }
 
+section
+{
+    margin-bottom: 0;
+    padding: 20 px 10px 40px 10px;
+    border-top: 3px gold;
+    background-color:royalblue;
+    
+}
 
+form
+{
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px gold;
+    border-radius: 20px;
+}
 
+label
+{
+   display: inline-block; 
+   width: 100px;
+   color: gold;
+}
+
+input,
+textarea
+{
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid gold;
+}
+
+textarea
+{
+    vertical-align: top;
+    height: 60px;
+}
+
+button
+{
+    height: 40px;
+    width: 120px;
+    background-color: gold;
+    color: royalblue;
+    text-align: center;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.text-right
+{
+    text-align: right;
 }
